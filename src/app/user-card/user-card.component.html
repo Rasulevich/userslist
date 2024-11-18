@@ -1,0 +1,6 @@
+<div class="card" >
+    <h2 [routerLink]="['/user', user.id]" style="cursor: pointer;">{{user.name}}</h2>
+    <h3>{{user.email}}</h3>
+    <button  (click)="delete(user.id)" class="button" >Удалить</button>
+    <button (click)="edit(user)" class="button" >Редактировать пользователя</button>
+</div>

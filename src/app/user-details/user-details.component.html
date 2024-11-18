@@ -1,0 +1,7 @@
+<div *ngIf="user$ | async as user" class="details_container">
+    <h2>{{user.name}}</h2>
+    <h3>Email: {{user.email}}</h3>
+    <h3>Website: {{user.website}}</h3>
+    <h3>Phone: {{user.phone}}</h3>
+    <button (click)="goBack()" class="button">Назад</button>
+</div>

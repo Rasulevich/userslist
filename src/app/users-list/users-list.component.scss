@@ -1,0 +1,21 @@
+.users-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.add-user-button {
+    background: transparent;
+    width: 150px;
+    margin: 10px 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.filter{
+    background: transparent;
+    width: 143px;
+    height: 30px;
+    margin: 10px 40px;
+    border-radius: 5px;
+}
